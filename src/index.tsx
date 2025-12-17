@@ -8,7 +8,9 @@ import Navbar from './components/Navbar';
 const Layout = (props: any) => {
   return (
     <>
-      <header><Navbar routes={routes}/></header>
+      <header>
+        <Navbar routes={routes} />
+      </header>
       <div class="main">{props.children}</div>
       <footer>
         <A href="https://linktree.com/rSpargo">©2025 Ryan Spargo</A>
